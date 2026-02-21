@@ -6,11 +6,10 @@
 </head>
 <body>
     <div class="clock-container">
-        <div class="time-section">
-            <!-- Jam besar HH:MM -->
-        </div>
+        <div class="time-section" id="clock">--:--</div>
         <div class="date-section">
-            <!-- Hari, Tanggal Bulan -->
+            <div id="day">------</div>
+			<div id="date">---------</div>
         </div>
     </div>
     

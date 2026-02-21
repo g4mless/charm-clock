@@ -1,17 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body, html {
 	height: 100%;
+	width: 100%;
 	margin: 0;
 	display: flex;
-	background: black;
-	font: Arial, sans-serif;
+	background: #0a0a0a;
+	overflow: hidden;
 }
+
+.clock-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
 .time-section {
-	font-size: 120px;
+    font-size: 120px;
+    font-weight: 300;
+    line-height: 1;
 	color: white;
 }
 
 .date-section {
-	font-size: medium;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 300;
 	color: white;
-	text-align: left;
 }
