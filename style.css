@@ -13,12 +13,14 @@ body, html {
 	background: #0a0a0a;
 	overflow: hidden;
 	justify-content: center;
+	align-items: center
 }
 
 .clock-container {
-	width: 100vh;
+	width: auto;
     display: flex;
     align-items: center;
+	justify-content: center;
     gap: 30px;
 }
 
