@@ -1,3 +1,7 @@
+const clockElement = document.getElementById('clock');
+const dayElement = document.getElementById('day');
+const dateElement = document.getElementById('date');
+
 function updateClock() {
 	const today = new Date();
 
@@ -19,10 +23,6 @@ function updateClock() {
 
 	const dayString	= dayName[indexDay];
 	const dateString = monthName[indexMonth] + " " + date;
-
-	const clockElement = document.getElementById('clock');
-	const dayElement = document.getElementById('day');
-	const dateElement = document.getElementById('date');
 
 	clockElement.textContent = timeString;
 	dayElement.textContent = dayString;

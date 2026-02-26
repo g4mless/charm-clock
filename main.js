@@ -1,5 +1,6 @@
 const { app, BrowserWindow, Menu } = require('electron')
-const path = require('path')
+
+app.disableHardwareAcceleration();
 
 function createWindow() {
   const win = new BrowserWindow({
@@ -11,7 +12,9 @@ function createWindow() {
     hasShadow: false,
     skipTaskbar: true,
     webPreferences: {
-      contextIsolation: true
+      contextIsolation: true,
+      nodeIntegration: false,
+      backgroundThrottling: true
     }
   })
 
