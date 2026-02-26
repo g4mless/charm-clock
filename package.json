@@ -1,0 +1,25 @@
+{
+  "name": "charm-clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g4mless/charm-clock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/g4mless/charm-clock/issues"
+  },
+  "homepage": "https://github.com/g4mless/charm-clock#readme",
+  "devDependencies": {
+    "electron": "^40.6.1"
+  }
+}
